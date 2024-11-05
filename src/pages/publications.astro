@@ -1,0 +1,24 @@
+---
+// src/pages/publications.astro
+import Layout from '../components/Layout.astro';
+import publications from '../../public/publications.json';
+
+// JSON 데이터를 연도별 역순으로 정렬
+const sortedPublications = publications.sort((a, b) => b.entryTags.year - a.entryTags.year);
+---
+
+<Layout>
+  <h1>Publications</h1>
+  <ol class="publications-list">
+    {sortedPublications.map((pub) => (
+      <li key={pub.citationKey}>
+        <strong>{pub.entryTags.title}</strong><br />
+        {pub.entryTags.author} - <em>{pub.entryTags.journal}</em>, {pub.entryTags.year}
+        {pub.entryTags.volume && `, Vol. ${pub.entryTags.volume}`}
+        {pub.entryTags.number && `, No. ${pub.entryTags.number}`} : {pub.entryTags.pages}
+        {pub.entryTags.publisher && `, ${pub.entryTags.publisher}`}
+      </li>
+    ))}
+  </ol>
+</Layout>
+

@@ -1,0 +1,18 @@
+---
+// src/components/Layout.astro
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+---
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/styles.css">
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <body>
+    <Header />
+    <main>
+      <slot /> <!-- 각 페이지의 콘텐츠가 여기에 렌더링됩니다 -->
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,221 @@
+/* Google Fonts 추가 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=IBM+Plex+Sans:wght@400;600&family=Merriweather&display=swap');
+
+/* 기본 스타일 */
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* 제목 스타일 */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #4b0082; /* 진한 인디고 색상으로 강조 */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+/* h1을 더 크게 강조 */
+h1 {
+  font-size: 2.5em; /* 큰 제목 크기 */
+  text-align: center;
+  border-bottom: 3px solid #bfbfdd; /* 하단에 선 추가 */
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* h2을 중간 크기로 강조 */
+h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+
+/* h3을 약간 작게 */
+h3 {
+  font-size: 1.75em;
+  margin-bottom: 20px;
+}
+
+/* 본문 스타일 */
+p, li, a, span {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* 라벤더색 기반의 기본 테마 스타일 */
+:root {
+  --lavender: #e6e6fa;
+  --lavender-dark: #bfbfdd;
+  --text-color: #333333;
+  --background-color: #f5f5fc;
+}
+
+/* Header 스타일 */
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background-color: var(--lavender);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--lavender-dark);
+}
+
+/* Footer 스타일 */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--lavender);
+  color: var(--text-color);
+  font-size: 14px;
+  border-top: 2px solid var(--lavender-dark);
+}
+
+/* 메인 컨텐츠 스타일 */
+main {
+  max-width: 1200px; /* 페이지 폭을 1200px로 확장 */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Markdown 텍스트 스타일 */
+h1, h2, h3 {
+  color: #5f4b8b;
+}
+
+p {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #5f4b8b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 홈 페이지 레이아웃 */
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 30px;
+  text-align: left;
+}
+
+/* 왼쪽 텍스트 영역 */
+.intro-text {
+  flex: 1;
+}
+
+/* 프로필 이미지 컨테이너 */
+.profile-image-container {
+  width: 150px; /* 이미지를 감싸는 컨테이너 너비 고정 */
+  display: flex;
+  justify-content: center; /* 이미지가 컨테이너 중앙에 위치하도록 설정 */
+}
+
+/* 프로필 이미지 */
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+/* 이름과 소개 */
+h1 {
+  font-size: 2.5em;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* 연락 정보 */
+.contact-info p {
+  font-size: 1em;
+  color: #333;
+}
+
+.contact-info a {
+  color: #4b0082;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* 연구 분야 */
+.research-areas {
+  background-color: #f5f5fc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.research-areas h2 {
+  font-size: 1.5em;
+  color: #4b0082;
+  margin-bottom: 15px;
+}
+
+.research-areas ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1em;
+}
+
+.research-areas li {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* cv 리스트에 간격 적용 */
+.cv-list li {
+  margin-bottom: 20px; /* 항목 사이의 여백 */
+  line-height: 1; /* 줄 간격 조정 */
+}
+
+
+/* Publications 리스트에 Merriweather 폰트와 간격 적용 */
+.publications-list {
+  font-family: 'Merriweather', serif;
+  line-height: 1.6; /* 줄 간격을 넓혀 가독성을 높임 */
+}
+
+.publications-list li {
+  margin-bottom: 20px; /* 각 항목 사이에 여유를 줌 */
+}
+

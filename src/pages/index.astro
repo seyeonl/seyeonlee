@@ -1,0 +1,34 @@
+---
+// src/pages/index.astro
+import Layout from '../components/Layout.astro';
+---
+
+<Layout>
+  <section class="home-container">
+    <!-- 왼쪽 텍스트 -->
+    <div class="intro-text">
+      <h1>Seyeon Lee</h1>
+      <p class="intro">Applied Mathematician specializing in Numerical Analysis, Machine Learning, and Autonomous Systems.</p>
+
+      <!-- 연락 정보 -->
+      <div class="contact-info">
+        <p>Email: <a href="mailto:seyeonlee0218@gmail.com">seyeonlee0218@gmail.com</a></p>
+      </div>
+    </div>
+
+    <!-- 오른쪽 프로필 이미지 -->
+    <div class="profile-image-container">
+      <img src="/my_photo.jpg" alt="Seyeon Lee's Profile Photo" class="profile-image" />
+    </div>
+  </section>
+
+  <!-- 연구 분야 -->
+  <div class="research-areas">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Numerical Methods for Fractional Differential Equations</li>
+      <li>Machine Learning for Solving PDEs</li>
+      <li>Industrial Mathematics Applications</li>
+    </ul>
+  </div>
+</Layout>
