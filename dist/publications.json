@@ -1,0 +1,82 @@
+[
+  {
+    "citationKey": "lee2024novel",
+    "entryType": "article",
+    "entryTags": {
+      "title": "A Novel Numerical Method for Solving Nonlinear Fractional-Order Differential Equations and Its Applications",
+      "author": "Lee, Seyeon and Kim, Hyunju and Jang, Bongsoo",
+      "journal": "Fractal and Fractional",
+      "volume": "8",
+      "number": "1",
+      "pages": "65",
+      "year": "2024",
+      "publisher": "MDPI"
+    }
+  },
+  {
+    "citationKey": "jung2022improving",
+    "entryType": "article",
+    "entryTags": {
+      "title": "Improving global supply chain risk identification using RCF",
+      "author": "JUNG, MYUNGHYUN and LEE, SEYEON and GIM, MINJUNG and KIM, HYUNGJO and LEE, JAEHO",
+      "journal": "Journal of the Korean Society for Industrial and Applied Mathematics",
+      "volume": "26",
+      "number": "4",
+      "pages": "280--295",
+      "year": "2022"
+    }
+  },
+  {
+    "citationKey": "el2022fractional",
+    "entryType": "article",
+    "entryTags": {
+      "title": "Fractional model for Middle East respiratory syndrome coronavirus on a complex heterogeneous network",
+      "author": "El-Saka, HAA and Obaya, Ibrahim and Lee, Seyeon and Jang, Bongsoo",
+      "journal": "Scientific Reports",
+      "volume": "12",
+      "number": "1",
+      "pages": "20706",
+      "year": "2022",
+      "publisher": "Nature Publishing Group UK London"
+    }
+  },
+  {
+    "citationKey": "lee2021fast",
+    "entryType": "article",
+    "entryTags": {
+      "title": "A fast and high-order numerical method for nonlinear fractional-order differential equations with non-singular kernel",
+      "author": "Lee, Seyeon and Lee, Junseo and Kim, Hyunju and Jang, Bongsoo",
+      "journal": "Applied Numerical Mathematics",
+      "volume": "163",
+      "pages": "57--76",
+      "year": "2021",
+      "publisher": "Elsevier"
+    }
+  },
+  {
+    "citationKey": "kim2020new",
+    "entryType": "article",
+    "entryTags": {
+      "title": "New explicit and accelerated techniques for solving fractional order differential equations",
+      "author": "Kim, Hyunju and Kim, Keon Ho and Lee, Seyeon and Jang, Bongsoo",
+      "journal": "Applied Mathematics and Computation",
+      "volume": "379",
+      "pages": "125228",
+      "year": "2020",
+      "publisher": "Elsevier"
+    }
+  },
+  {
+    "citationKey": "el2019dynamic",
+    "entryType": "article",
+    "entryTags": {
+      "title": "Dynamic analysis of fractional-order predator--prey biological economic system with Holling type II functional response",
+      "author": "El-Saka, HAA and Lee, Seyeon and Jang, Bongsoo",
+      "journal": "Nonlinear Dynamics",
+      "volume": "96",
+      "pages": "407--416",
+      "year": "2019",
+      "publisher": "Springer"
+    }
+  }
+]
