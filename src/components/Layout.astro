@@ -4,15 +4,27 @@ import Header from './Header.astro';
 import Footer from './Footer.astro';
 ---
 
-<html>
-    <head>
-        <link rel="stylesheet" href="/styles.css">
-        <link rel="icon" href="/favicon_io/favicon.ico" type="image/x-icon" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Astro.props.title || "Default Title"}</title> <!-- 동적으로 title 사용 -->
+    <link rel="icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css"> 
+  </head>
   <body>
-    <Header />
+    <header>
+      <Header />
+    </header>
+
     <main>
-      <slot /> <!-- 각 페이지의 콘텐츠가 여기에 렌더링됩니다 -->
+      <slot />
     </main>
-    <Footer />
+
+    <footer>
+      <Footer />
+    </footer>
   </body>
 </html>
+

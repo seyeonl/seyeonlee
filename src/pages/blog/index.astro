@@ -1,12 +1,11 @@
 ---
-// src/pages/blog/index.astro
 import Layout from '../../components/Layout.astro';
 
 // 모든 Markdown 파일을 가져옵니다.
 const posts = await Astro.glob('./*.md');
 ---
 
-<Layout>
+<Layout title="Blog">
   <h1>Blog</h1>
   <ul>
     {posts.map((post) => (

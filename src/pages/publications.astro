@@ -7,7 +7,7 @@ import publications from '../../public/publications.json';
 const sortedPublications = publications.sort((a, b) => parseInt(b.entryTags.year) - parseInt(a.entryTags.year));
 ---
 
-<Layout>
+<Layout title="Publications">
   <h1>Publications</h1>
   <ol class="publications-list">
     {sortedPublications.map((pub) => (
